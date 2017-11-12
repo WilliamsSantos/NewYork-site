@@ -1,0 +1,169 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Russo+One');
+
+body{
+	background: url(../_imagens/blur.jpg)repeat;
+	background-size: 2500px;
+}
+div#atualizacao{
+	font-size: 6pt;
+	font-family: arial, sans-serif;
+	position: absolute;
+	display: block;
+	margin-left: 10px;
+	color: rgba(00,00,00,.5);
+	margin-bottom:0px;
+}
+div#atualizacao h1{
+	margin-bottom: 0px;
+}
+div#atualizacao h2{
+	margin-top: 0px;
+	text-indent: 10px;
+}
+img#barra{
+	float:right;
+	width: 200px;
+	height: 30px;
+	margin-left: 800px;
+	padding-right: 50px;
+}
+div#interface{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -5px;
+	display: block;
+	background-color:;
+	margin-bottom: 0px;
+}
+input#pesquisa{
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 5px;
+	display: block;
+	float: right;
+	background-color: rgba(00,00,00,.3);
+	color: #ffffff;
+	border: 1px solid;
+}
+header#mainNav{
+	text-transform: none;
+	background-color:;
+	display: block;
+	float: left;
+	margin-top: 60px;
+	margin-left: 100px;
+	font-family: 'Russo One', sans-serif;
+}
+nav#menuPrin h1{
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: 1px 1px 3px rgba(01,01,01,1);
+	padding: 0px;
+	margin: 0px;
+}
+ul#menuPrin{
+	font-size: 15pt;
+	background-color: rgba(00,00,00,.4);
+	padding: 30px;
+	border: 1px solid;
+}
+ul#menuPrin a{
+	text-decoration: none;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+ul#menuPrin li{
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid rgba(00,00,00,.3);
+	transition: .7s;
+}
+ul#menuPrin li:hover{
+	background-color: #000000;
+	text-decoration: underline;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+figure#clogo img#logo{
+	width: 50px;
+	height: 25px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+img#palheta{
+	margin-top: -500px;
+	width: 1010px;
+	height: 550px;
+	margin-left: -2px;
+	padding: 0px;
+}
+section#conteudo{
+	background: url(../_imagens/wallpaper.jpg) no-repeat;
+	background-position: auto;
+	width: auto;
+	height: 1000px;
+	margin-bottom: 0px;
+	box-shadow: 5px 4px 4px rgba(00,00,00,.7);
+}	
+
+
+
+footer#rodape{
+	background-color: rgba(00,00,00,.9);
+	margin-top: 0px;
+	border-top: 1px solid black;
+}
+footer#rodape figure#rlogo img#fb{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+} 
+footer#rodape h1{
+	font-size: 15pt;
+	font-family: 'Russo One', sans-serif;
+}
+footer#rodape h2{
+	text-indent: 15px;
+}
+section#tle{
+	font-size: 10pt;
+	float: left;
+	display: block;
+	color: #ffffff;
+	margin: 10px 10px 10px 10px;
+	padding-left: 50px;
+	width: 250px;
+	height: 150px;
+	border-right: 1px solid;
+}
+section#tlm{
+	font-size: 10pt;
+	position: relative; 
+	display: block;
+	color: #ffffff;
+	width: 300px;
+	height: 160px;
+	margin-left: 365px;
+	padding-top:10px; 
+
+
+}
+section#tld{
+	width: 250px;
+	height: 150px;
+	float: right;
+	position: relative;
+	color: white;
+	margin-top: -160px;
+	margin-right: 10px;
+	padding-left: 50px;
+	border-left: 2px solid;
+}
+section#tld a{
+	text-decoration: none;
+	color: #ffffff;
+}
+section#tld a:hover{
+	text-decoration: underline;
+}
